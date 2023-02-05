@@ -1,0 +1,128 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey", "what's up"],
+    "bot_response": "hi friend, glad to have you",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "game",
+    "user_input": ["rock paper scissors", "game", "play"],
+    "bot_response": "sure! type 'rps' for Rock Paper Scissors or 'ttt' for TicTacToe!",
+    "required_words": []
+  },
+  {
+    "response_type": "thank you",
+    "user_input": ["ty", "thanks", "thank"],
+    "bot_response": "(๑˘︶˘๑)",
+    "required_words": []
+  },
+  {
+    "response_type": "weather",
+    "user_input": ["how", "is", "weather", "cold", "or"],
+    "bot_response": "it's super cold, make sure you bundle up!",
+    "required_words": []
+  },
+  {
+    "response_type": "weather",
+    "user_input": ["how", "is", "weather", "hot"],
+    "bot_response": "really? i thought it was frigid outside!",
+    "required_words": []
+  },
+  {
+    "response_type": "menu",
+    "user_input": ["order", "menu", "food", "drink", "hungry", "starving"],
+    "bot_response": "of course, here's the menu: \n 1. cookies - $1 \n 2. hot choco - $2 \n 3. barley stew - $4 \n Let me know what you want to order with '1', '2', '3'!",
+    "required_words": []
+  },
+  {
+    "response_type": "menu",
+    "user_input": ["1"],
+    "bot_response": "cookies! \n *regina passes you a platter of humongo choco chip cookies. the soft gooeyness helps you pull your pieces back together*",
+    "required_words": []
+  },
+  {
+    "response_type": "menu",
+    "user_input": ["2"],
+    "bot_response": "lovely when it's cold outside \n *regina pours you a warm, rich, and creamy cup of hot cocoa! the warmth and sweetness brings you back to life*",
+    "required_words": []
+  },
+  {
+    "response_type": "menu",
+    "user_input": ["3"],
+    "bot_response": "my mom's recipe! \n *regina passes you a hearty, creamy, and fulfilling bowl of barley stew. the heartiness fills you with determination*",
+    "required_words": []
+  },
+  {
+    "response_type": "reactions",
+    "user_input": ["ok"],
+    "bot_response": "ok",
+    "required_words": []
+  },
+  {
+    "response_type": "reactions",
+    "user_input": ["stupid", "dumb", "i hate you", "not your friend", "not friend", "shit", "hate"],
+    "bot_response": "that's not so nice",
+    "required_words": []
+  },
+  {
+    "response_type": "reactions",
+    "user_input": ["wow", "oh my", "omg"],
+    "bot_response": "surprising right?",
+    "required_words": []
+  },
+  {
+    "response_type": "reactions",
+    "user_input": ["no", "nah", "never", "you wish"],
+    "bot_response": "bruh.",
+    "required_words": []
+  },
+  {
+    "response_type": "reactions",
+    "user_input": ["lol", "lmao", "XD", "xD"],
+    "bot_response": "rawr! XD",
+    "required_words": []
+  },
+  {
+    "response_type": "reactions",
+    "user_input": ["huh", "what"],
+    "bot_response": "what are you confused about?",
+    "required_words": []
+  },
+  {
+    "response_type": "reactions",
+    "user_input": ["glad", "happy", "be here"],
+    "bot_response": "(๑˘︶˘๑)",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "whats", "your", "name"],
+    "bot_response": "My name is Regina! Nice to meet you!",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["my", "name", "is", "Im"],
+    "bot_response": "What a lovely name, it's a pleasure to meet you!",
+    "required_words": []
+  }
+]
